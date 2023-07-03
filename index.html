@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <title>EByte - A sua loja de computadores!</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-principal">
+                <div class="menu-hamburguer">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <h1>EByte</h1>
+            </div>
+            <form>
+                <input type="search" placeholder="Pesquise o seu produto">
+                <button type="submit">Buscar</button>
+            </form>
+                <button type="button" id="button-menu">Produtos</button>
+        </div>
+        <nav class="navegacao">
+            <div class="container">
+                <ul class="menu-principal">
+                    <li>
+                        Hardware
+                        <ul class="submenu">
+                            <li>
+                                <a href="#">Processadores</a>
+                            </li>
+                            <li>
+                                <a href="#">Placa de vídeo</a>
+                            </li>
+                            <li>
+                                <a href="#">SSD</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        Periféricos
+                        <ul class="submenu">
+                            <li>
+                                <a href="#">Teclado</a>
+                            </li>
+                            <li>
+                                <a href="#">Mouse</a>
+                            </li>
+                            <li>
+                                <a href="#">Headset</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        Gabinetes
+                        <ul class="submenu">
+                            <li>
+                                <a href="#">Gabinete Cooler Master</a>
+                            </li>
+                            <li>
+                                <a href="#">Gabinete Gamdias</a>
+                            </li>
+                            <li>
+                                <a href="#">Gabinete Corsair</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        Refrigeração
+                        <ul class="submenu">
+                            <li>
+                                <a href="#">Water Cooler</a>
+                            </li>
+                            <li>
+                                <a href="#">Air Cooler</a>
+                            </li>
+                            <li>
+                                <a href="#">Pasta términa</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="clear"></div>
+        </nav>
+    </header>
+    <section class="about-us container">
+        <img src="./images/imagem-loja.jpg" alt="Imagem da loja">
+        <div class="sobre">
+            <h2>Sobre a loja</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus quisquam, dolor, explicabo sequi soluta iure minima adipisci reiciendis nisi voluptate, ut totam eveniet aperiam doloribus dolorem ex corporis maxime. Natus.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus quisquam, dolor, explicabo sequi soluta iure minima adipisci reiciendis nisi voluptate, ut totam eveniet aperiam doloribus dolorem ex corporis maxime. Natus.</p>
+        </div>
+    </section>
+    <section class="produtos container">
+        <h2>Produtos</h2>
+        <div class="produtos-disponiveis">
+            <div class="produto">
+                <img src="./images/produto-gabinete.jpg" alt="Gabinete">
+                <h3>Gabinete</h3>
+                <p>Gabinete RGB disponível para pronta entrega!</p>
+                <button type="button">Adicionar ao carrinho</button>
+            </div>
+            <div class="produto">
+                <img src="./images/produto-placadevideo.jpg" alt="Placa de video">
+                <h3>Placa de video</h3>
+                <p>Placa de video disponível para pronta entrega!</p>
+                <button type="button">Adicionar ao carrinho</button>
+            </div>
+            <div class="produto">
+                <img src="./images/produto-processador.jpg" alt="Processador">
+                <h3>Processador</h3>
+                <p>Processador disponível para pronta entrega!</p>
+                <button type="button">Adicionar ao carrinho</button>
+            </div>
+            <div class="produto">
+                <img src="./images/produto-watercooler.jpg" alt="Water Cooler">
+                <h3>Water Cooler</h3>
+                <p>Water Cooler RGB disponível para pronta entrega!</p>
+                <button type="button">Adicionar ao carrinho</button>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            2023 &copy; EByte - Todos os direitos reservados 
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+</html>
